@@ -21,7 +21,7 @@ const sendData = async () => {
             method: 'POST',
             //CABECERA
             headers: {
-                'Content-Typer': 'application/json',
+                'Content-Type': 'application/json',
             },
             body: JSON.stringify({ names, lastName, email, pass }),
 
